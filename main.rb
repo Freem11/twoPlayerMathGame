@@ -1,5 +1,7 @@
 
 
-require 'pp'
-# require './candidates'
-# require './filters'
+# require 'pp'
+require './game'
+
+game = Game.new
+game.startGame
